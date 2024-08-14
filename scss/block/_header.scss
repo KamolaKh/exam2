@@ -1,0 +1,42 @@
+header {
+  padding-bottom: 10px;
+}
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header__list {
+  display: flex;
+  gap: 40px;
+}
+.header__link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: #000;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.header__link:hover,
+.header__link.active {
+  color: var(--color);
+  border-bottom-color: var(--color);
+}
+
+.header__btn {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: var(--color);
+  padding: 14px 30px;
+}
+.header__btn:hover {
+  color: var(--color1);
+}
